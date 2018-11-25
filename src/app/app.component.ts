@@ -1,5 +1,4 @@
 import { Component, ViewChild } from '@angular/core';
-import { SearchComponent } from './search/search.component'
 import { DataService } from './data.service';
 
 @Component({

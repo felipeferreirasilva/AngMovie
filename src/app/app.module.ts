@@ -6,15 +6,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';
-import { MovieComponent } from './movie/movie.component';
-import { HomeComponent } from './home/home.component';
+import { MovieComponent } from './movies/movie/movie.component';
+import { MoviesComponent } from './movies/movies.component';
 import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieComponent,
-    HomeComponent,
+    MoviesComponent,
     NavComponent
   ],
   imports: [
