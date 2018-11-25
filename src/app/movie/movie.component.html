@@ -1,24 +1,23 @@
-<div class="container mt-5 mb-3">
-  
-    <div class="row">
-      <div class="col">
-        <img src="{{movie.Poster}}" alt="" class="img-thumbnail">
-      </div>
-      <div class="col-8">
-        <h4 class="mb-2">{{movie.Title}}</h4>
-        <h6><strong>Actors:</strong> {{ movie.Actors }}</h6>
-        <h6><strong>Awards:</strong> {{ movie.Awards }}</h6>
-        <h6><strong>Country:</strong> {{ movie.Country }}</h6>
-        <h6><strong>Released:</strong> {{ movie.Released }}</h6>
-        <h6><strong>Dvd:</strong> {{ movie.DVD }}</h6>
-        <h6><strong>Runtime:</strong> {{ movie.Runtime }}</h6>
-        <h6><strong>Director:</strong> {{ movie.Director }}</h6>
-        <h6><strong>Writer:</strong> {{ movie.Writer }}</h6>
-        <h6><strong>Production:</strong> {{ movie.Production }}</h6>
-        <h6><strong>Genre:</strong> {{ movie.Genre }}</h6>
-        <h6><strong>Language:</strong> {{ movie.Language }}</h6>
-        <h6 class="text-justify"><strong>Plot:</strong> {{ movie.Plot }}</h6>
-      </div>
+<div class="container mt-5 mb-5">
+  <div class="row">
+    <div class="col-sm-12 col-md-4 col-lg-4 text-center">
+      <img src="{{movie.Poster}}" alt="{{movie.Title}}" class="img-thumbnail">
     </div>
-  
+    <div class="col">
+      <h4 class="mt-5 mb-5 text-center">{{movie.Title}}</h4>
+      <h6><strong>Actors:</strong> {{ movie.Actors }}</h6>
+      <h6><strong>Awards:</strong> {{ movie.Awards }}</h6>
+      <h6><strong>Country:</strong> {{ movie.Country }}</h6>
+      <h6><strong>Released:</strong> {{ movie.Released }}</h6>
+      <h6><strong>Dvd:</strong> {{ movie.DVD }}</h6>
+      <h6><strong>Runtime:</strong> {{ movie.Runtime }}</h6>
+      <h6><strong>Director:</strong> {{ movie.Director }}</h6>
+      <h6><strong>Writer:</strong> {{ movie.Writer }}</h6>
+      <h6><strong>Production:</strong> {{ movie.Production }}</h6>
+      <h6><strong>Genre:</strong> {{ movie.Genre }}</h6>
+      <h6><strong>Type:</strong> {{ movie.Type }}</h6>
+      <h6><strong>Language:</strong> {{ movie.Language }}</h6>
+      <h6 class="text-justify"><strong>Plot:</strong> {{ movie.Plot }}</h6>
+    </div>
+  </div>
 </div>

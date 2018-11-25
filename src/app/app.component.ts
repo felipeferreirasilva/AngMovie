@@ -14,14 +14,14 @@ export class AppComponent {
   constructor(private dataService: DataService) {
     this.dataService.searchMovieByName()
       .subscribe(response => {
-        this.movies = response.Search;
+        this.movies = response["Search"];
       })
   }
 
   searchMovies = (query: string) => {
     this.dataService.searchMovieByName(query)
       .subscribe(response => {
-        this.movies = response.Search;
+        this.movies = response["Search"];
         console.log(this.movies)
       })
   }

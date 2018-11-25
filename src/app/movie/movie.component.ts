@@ -12,7 +12,7 @@ export class MovieComponent implements OnInit {
 
   constructor(private route: ActivatedRoute, private dataService: DataService) { 
     this.route.params.subscribe(params => {
-      this.dataService.searchMovieById(params.id)
+      this.dataService.searchMovieById(params["id"])
       .subscribe(response => {
         console.log(response)
         this.movie = response;

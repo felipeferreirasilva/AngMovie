@@ -1,9 +1,8 @@
-<div class="container mt-2">
-    <h2 class="text-center"><a routerLink="/">{{title}}</a></h2>
+<app-nav [title]="title"></app-nav>
+
+<div class="container">
+    <app-search [searchMovies]="searchMovies"></app-search>
+    <app-home [movies]="movies"></app-home>
 </div>
-
-<app-search [searchMovies]="searchMovies"></app-search>
-
-<app-home [movies]="movies"></app-home>
 
 <router-outlet></router-outlet>
