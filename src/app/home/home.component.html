@@ -1,0 +1,7 @@
+<div class="container mt-3 ">
+    <div class="row hs full">
+        <div class="col-sm-3" *ngFor="let movie of movies">
+            <a routerLink="/movie/{{ movie.imdbID }}"><img src="{{ movie.Poster}}" alt="{{ movie.Title}}" class="item"></a>
+        </div>
+    </div>
+</div>
