@@ -1,4 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { faFilm } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-nav',
@@ -9,6 +10,7 @@ export class NavComponent implements OnInit {
   @Input() title: string;
   @Input() searchMovies;
   query: string;
+  faFilm = faFilm;
 
   constructor() { }
 
