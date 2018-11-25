@@ -9,13 +9,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { MovieComponent } from './movies/movie/movie.component';
 import { MoviesComponent } from './movies/movies.component';
 import { NavComponent } from './nav/nav.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MovieComponent,
     MoviesComponent,
-    NavComponent
+    NavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
