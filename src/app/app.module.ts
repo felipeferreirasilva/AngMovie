@@ -7,7 +7,6 @@ import { AppComponent } from './app.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { MovieComponent } from './movie/movie.component';
-import { SearchComponent } from './search/search.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 
@@ -15,7 +14,6 @@ import { NavComponent } from './nav/nav.component';
   declarations: [
     AppComponent,
     MovieComponent,
-    SearchComponent,
     HomeComponent,
     NavComponent
   ],

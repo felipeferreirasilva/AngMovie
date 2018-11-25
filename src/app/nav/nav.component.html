@@ -1,3 +1,7 @@
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-dark bg-dark">
   <a routerLink="/"><span class="navbar-brand mb-0 h1">{{title}}</span></a>
+  <div class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" [(ngModel)]="query">
+    <button class="btn btn-primary my-2 my-sm-0" type="submit" (click)="onSearchMovies()">Search</button>
+  </div>
 </nav>
