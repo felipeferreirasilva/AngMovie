@@ -1,7 +1,7 @@
 # AngMovie
 Movies Search Platform made using Angular (version 7) with OMDB Api.
 
-Technologies: ANGULAR
+Technologies: ANGULAR / BOOTSTRAP 4
 
 Author: Felipe Silva
 
