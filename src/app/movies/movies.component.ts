@@ -11,8 +11,8 @@ export class MoviesComponent implements OnInit {
   swipe_right: string;
   
   constructor() { 
-    this.swipe_left = "/assets/images/swipe_left.png"
-    this.swipe_right = "/assets/images/swipe_right.png"
+    this.swipe_left = "assets/images/swipe_left.png"
+    this.swipe_right = "assets/images/swipe_right.png"
   }
 
   ngOnInit() {
