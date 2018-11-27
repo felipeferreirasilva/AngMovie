@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http'
 })
 
 export class DataService {
-  URL: string = 'http://www.omdbapi.com/?plot=full&apikey='
+  URL: string = 'https://www.omdbapi.com/?plot=full&apikey='
   API_KEY: string = '63fc0356'
 
   constructor(private http: HttpClient) { }
